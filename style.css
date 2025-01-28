@@ -1,0 +1,163 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: white;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    position: relative;
+    background:  #5e5e5e;
+    padding: 1rem;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hamburger {
+    font-size: 1.5rem;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #5e5e5e;
+    transform: translateY(-500px);
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+.dropdown ul {
+    list-style: none;
+    padding: 1rem;
+    margin: 0;
+}
+
+.dropdown li {
+    margin: 1rem 0;
+}
+
+.dropdown a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.close-btn {
+    background: none;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: block;
+    margin: 1rem auto;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 2rem;
+    background: #d8dadb;
+}
+
+.hero .highlight {
+    color: #0056b3;
+    font-weight: bold;
+}
+
+.typewriter-text {
+    color: rgb(255, 198, 155); /* Text fill color */
+    font-weight: bold;
+    text-shadow: none; /* No shadow needed */
+    -webkit-text-stroke: 1px hsl(0, 92%, 23%); /* Creates the text border */
+}
+
+
+/* About Section */
+#about {
+    text-align: center;
+    padding: 2rem;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Skills Section */
+#skills {
+    text-align: center;
+    padding: 2rem;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 0.5rem;
+    background: #353535;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+#projects {
+    text-align: center;
+    padding: 2rem;
+}
+
+#projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+#projects li {
+    margin: 1rem 0;
+}
+
+#projects a {
+    color:rgb(245, 160, 94);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#projects a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+#contact {
+    text-align: center;
+    padding: 2rem;
+}
+
+#contact a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #5e5e5e;
+    color: white;
+}
