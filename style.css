@@ -82,7 +82,7 @@ nav {
     color: rgb(255, 198, 155); /* Text fill color */
     font-weight: bold;
     text-shadow: none; /* No shadow needed */
-    -webkit-text-stroke: 1px hsl(0, 92%, 23%); /* Creates the text border */
+    -webkit-text-stroke: 1px hsla(0, 92%, 23%, 0.562); /* Creates the text border */
 }
 
 
